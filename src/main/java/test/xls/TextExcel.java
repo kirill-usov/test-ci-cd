@@ -67,7 +67,7 @@ public class TextExcel {
             int r = 0;
         }
         
-//        var start = Instant.now();
+        var start = Instant.now();
 //        
         //List<String> list = new LinkedList<>();
         try (InputStream is = new FileInputStream(new File("/Users/kirill_usov/Temp/2m_file.xls")); ReadableWorkbook wb = new ReadableWorkbook(is)) {
