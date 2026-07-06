@@ -1,6 +1,7 @@
 name: GitHub action test
 
 on:
+    workflow_dispatch: # Enables the manual "Run workflow" button
     push:
         branches: [ $default-branch ]
     pull_request:
