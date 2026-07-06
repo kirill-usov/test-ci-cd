@@ -81,6 +81,7 @@ public class TextExcel {
                     StringBuilder sb = new StringBuilder();
                     row.forEach(cell -> {
                         var value = cell.getRawValue();
+                        System.out.println(value);
                         sb.append(value).append(";");
                     });
 
